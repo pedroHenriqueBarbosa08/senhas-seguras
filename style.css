@@ -106,6 +106,39 @@ cursor: pointer;
     margin: 0px;
 
 }
+.barra {background-color:var(--fundo-senha);
+    height: 30px;
+    width: 100; 
+   
+}
+
+.forca{
+    height: 30px;
+    position: relative;
+    width: 30px;
+}
+
+.fraca{
+    height: 30px;
+    width: 25%;
+    background-color: #e71b32;
+    position: relative;
+    bottom: 30px;
+}
+
+.media{
+    background-color: #faf400;
+    width: 50%;
+}
+
+.forte{
+    width: 100%;
+    background-color: #00ff85;
+}
+.parametro-senhas-textos{
+    display: flex;
+    justify-content:space-between ;
+}
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
